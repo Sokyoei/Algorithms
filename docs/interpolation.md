@@ -1,1 +1,1 @@
-# interpolation 插值
+--8<-- "interpolation/README.md"

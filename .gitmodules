@@ -1,0 +1,6 @@
+[submodule "AI/Vision"]
+	path = AI/Vision
+	url = https://github.com/Sokyoei/Vision
+[submodule "ML"]
+	path = ML
+	url = https://github.com/Sokyoei/ML
