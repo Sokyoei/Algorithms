@@ -1,1 +1,0 @@
---8<-- "AI/bigmodel/README.md"

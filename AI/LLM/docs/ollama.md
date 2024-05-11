@@ -1,10 +1,8 @@
-## [ollama](https://ollama.com/)
-
 === "Windows"
 
 === "Linux"
 
-    1. 安装 ollama
+    1. 安装 [ollama](https://ollama.com/)
 
         ```shell
         curl -fsSL https://ollama.com/install.sh | sh

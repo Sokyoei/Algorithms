@@ -1,4 +1,6 @@
-# interpolation 插值算法
+# interpolation
+
+插值算法
 
 > 一维插值
 > 二维插值
