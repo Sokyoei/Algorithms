@@ -4,7 +4,7 @@ set(MSVC_CC_FLAGS "${MSVC_BASE_FLAGS} /Zc:__STDC__")
 set(MSVC_CXX_FLAGS "${MSVC_BASE_FLAGS} /Zc:__cplusplus")
 
 # GCC
-set(GCC_BASE_FLAGS "-fdiagnostics-color=always")
+set(GCC_BASE_FLAGS "-fdiagnostics-color=always -Wall")
 set(GCC_CC_FLAGS "${GCC_BASE_FLAGS}")
 set(GCC_CXX_FLAGS "${GCC_BASE_FLAGS}")
 

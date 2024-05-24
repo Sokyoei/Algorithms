@@ -24,3 +24,9 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["Algorithms"]
+
+[tool.black]
+line-length = 120
+preview = true
+skip-string-normalization = true
+skip-magic-trailing-comma = true

@@ -1,1 +1,14 @@
-{}
+{
+    "files.associations": {
+        "*.m": "matlab",
+        ".editorconfig": "editorconfig",
+        "*.cppm": "cpp",
+        "*.cuf": "FortranFreeForm",
+        ".clang-format": "yaml",
+        ".clang-tidy": "yaml",
+        "sm2.h": "c",
+        "sm3.h": "c",
+        "sm4.h": "c"
+    },
+    "python.analysis.autoImportCompletions": true
+}

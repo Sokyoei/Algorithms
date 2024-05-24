@@ -1,5 +1,5 @@
 [project]
-name = "algorithms_ai_bigmodel"
+name = "algorithms_ai_llm"
 version = "0.1.0"
 description = "Sokyoei's Algorithms"
 authors = [{ name = "Sokyoei", email = "89757286+Sokyoei@users.noreply.github.com" }]
