@@ -1,6 +1,12 @@
+[submodule "AI/NLP"]
+	path = AI/NLP
+	url = https://github.com/Sokyoei/NLP
+	branch = master
 [submodule "AI/Vision"]
 	path = AI/Vision
 	url = https://github.com/Sokyoei/Vision
+	branch = master
 [submodule "ML"]
 	path = ML
 	url = https://github.com/Sokyoei/ML
+	branch = master
