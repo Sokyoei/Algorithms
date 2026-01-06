@@ -2,6 +2,9 @@
 Sokyoei
 temp
 
+# ignore model file
+*.model
+
 # ignore JetBrains IDEA config dir
 .idea
 
