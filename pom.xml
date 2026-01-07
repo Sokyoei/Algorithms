@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ahri</groupId>
-    <artifactId>Algorithms</artifactId>
+    <artifactId>Ayanami</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Algorithms</name>
-    <url>https://github.com/Sokyoei/Algorithms</url>
+    <name>Ayanami</name>
+    <url>https://github.com/Sokyoei/Ayanami</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
