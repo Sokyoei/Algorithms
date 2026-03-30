@@ -1,19 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "Ahri.Ayanami"
-version = "0.1.0"
+version = "0.0.1"
 description = "Sokyoei's Algorithms"
 authors = [{ name = "Sokyoei", email = "89757286+Sokyoei@users.noreply.github.com" }]
-dependencies = []
+dependencies = [
+    "numpy",
+    "scikit-learn", # https://github.com/scikit-learn/scikit-learn/
+    "xgboost",      # https://github.com/dmlc/xgboost
+    "lightgbm",     # https://github.com/microsoft/LightGBM
+]
 readme = "README.md"
 requires-python = ">= 3.12"
 
 [project.optional-dependencies]
-AI = ["transformers"]
-ML = ["scikit-learn"]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
 
 [tool.hatch.metadata]
 allow-direct-references = true
