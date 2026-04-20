@@ -1,7 +1,7 @@
-#include "red_black_tree.h"
+#include "Ahri/Ayanami/tree/red_black_tree.h"
 
-Node* create_node(int val, Node* parent) {
-    Node* new_node = (Node*)malloc(sizeof(Node));
+RBNode* create_node(int val, RBNode* parent) {
+    RBNode* new_node = (RBNode*)malloc(sizeof(RBNode));
     new_node->val = val;
     new_node->parent = parent;
     new_node->left = NULL;
@@ -9,13 +9,9 @@ Node* create_node(int val, Node* parent) {
     new_node->color = red;
 }
 
-bool is_leaf(Node* node) {
+bool is_leaf(RBNode* node) {
     if (node->left == NULL && node->right == NULL) {
         return true;
     }
     return false;
-}
-
-int main(int argc, char const* argv[]) {
-    return 0;
 }
