@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "Ahri.Ayanami"
+name = "Ayanami"
 version = "0.0.1"
 description = "Sokyoei's Algorithms"
 authors = [{ name = "Sokyoei", email = "89757286+Sokyoei@users.noreply.github.com" }]

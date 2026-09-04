@@ -8,7 +8,7 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from Ahri.Ayanami import AYANAMI_ROOT
+from ayanami import AYANAMI_ROOT
 
 
 class Settings(BaseSettings):
@@ -37,7 +37,7 @@ class Settings(BaseSettings):
     )
 
 
-if sys.version_info >= (3, 8):
+if sys.version_info >= (3, 8):  # noqa: UP036
 
     @lru_cache
     def get_settings() -> Settings:
